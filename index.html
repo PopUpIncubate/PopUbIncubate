@@ -49,7 +49,26 @@ This automatic page generator is the easiest way to create beautiful pages for a
       </footer>
 
     </section>
-    <script src="https://linked.chat/web/23291g" async></script>
+    <!--Start of HappyFox Live Chat Script-->
+<script>
+ window.HFCHAT_CONFIG = {
+     EMBED_TOKEN: "52872440-25dc-11e6-bccb-0fdb538320c4",
+     ACCESS_TOKEN: "681e692b59c547279b4d42b9144b90ea",
+     HOST_URL: "https://happyfoxchat.com",
+     ASSETS_URL: "https://d1l7z5ofrj6ab8.cloudfront.net/visitor"
+ };
+
+(function() {
+  var scriptTag = document.createElement('script');
+  scriptTag.type = 'text/javascript';
+  scriptTag.async = true;
+  scriptTag.src = window.HFCHAT_CONFIG.ASSETS_URL + '/js/widget-loader.js';
+
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(scriptTag, s);
+})();
+</script>
+<!--End of HappyFox Live Chat Script-->
   
   </body>
 </html>
