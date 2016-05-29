@@ -49,26 +49,7 @@ This automatic page generator is the easiest way to create beautiful pages for a
       </footer>
 
     </section>
-    <!--Start of HappyFox Live Chat Script-->
-<script>
- window.HFCHAT_CONFIG = {
-     EMBED_TOKEN: "52872440-25dc-11e6-bccb-0fdb538320c4",
-     ACCESS_TOKEN: "681e692b59c547279b4d42b9144b90ea",
-     HOST_URL: "https://happyfoxchat.com",
-     ASSETS_URL: "https://d1l7z5ofrj6ab8.cloudfront.net/visitor"
- };
-
-(function() {
-  var scriptTag = document.createElement('script');
-  scriptTag.type = 'text/javascript';
-  scriptTag.async = true;
-  scriptTag.src = window.HFCHAT_CONFIG.ASSETS_URL + '/js/widget-loader.js';
-
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(scriptTag, s);
-})();
-</script>
-<!--End of HappyFox Live Chat Script-->
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'c76497b3-cfa2-45ee-9848-d3b59512f7a2', f: true }); done = true; } }; })();</script>
   
   </body>
 </html>
