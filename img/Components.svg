@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="691px" height="671px" viewBox="0 0 691 671" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Components</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="340.5" cy="200.5" r="200.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="401" height="401" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="200.5" cy="470.5" r="200.5"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="401" height="401" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="490.5" cy="470.5" r="200.5"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="401" height="401" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M303.656105,397.622089 C315.599208,399.840357 327.914179,401 340.5,401 C356.355295,401 371.780743,399.159609 386.574377,395.680796 C376.98469,371.853732 362.951127,350.292963 345.5,332.024794 C327.576146,350.787822 313.257518,373.02425 303.656105,397.622089 L303.656105,397.622089 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="82.9182716" height="68.9752059" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components">
+            <use id="Oval-1" stroke="#B8E986" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            <use id="Oval-1-Copy" stroke="#B8E986" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+            <use id="Oval-1-Copy-2" stroke="#B8E986" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+            <use id="Combined-Shape" stroke="#481475" mask="url(#mask-8)" stroke-width="18" xlink:href="#path-7"></use>
+            <path d="M347.376412,380.5 C353.247149,380.5 358.006321,375.740827 358.006321,369.870091 C358.006321,363.999354 353.247149,359.240181 347.376412,359.240181 C341.505675,359.240181 336.746503,363.999354 336.746503,369.870091 C336.746503,375.740827 341.505675,380.5 347.376412,380.5 Z" id="Oval-4" fill="#481475"></path>
+            <path d="M398.566061,337.83018 L425.214419,316.250765 L429.74464,312.582264 L422.407639,303.521822 L417.877418,307.190323 L391.229059,328.769738 L386.698839,332.438239 L394.03584,341.498681 L398.566061,337.83018 Z M374.762282,316.491388 L389.794042,285.671713 L392.349441,280.432369 L381.870752,275.32157 L379.315353,280.560915 L364.283593,311.38059 L361.728194,316.619935 L372.206883,321.730733 L374.762282,316.491388 Z M344.204207,307.119335 L344.204207,272.829305 L344.204207,267 L332.545596,267 L332.545596,272.829305 L332.545596,307.119335 L332.545596,312.94864 L344.204207,312.94864 L344.204207,307.119335 Z" id="LOGO" fill="#481475"></path>
+        </g>
+    </g>
+</svg>
