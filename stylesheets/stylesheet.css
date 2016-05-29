@@ -58,7 +58,7 @@ a {
   text-align: center;
   /*background-color: #159957;
   background-image: linear-gradient(120deg, #155799, #159957); */
-  background-image: url(https://photos-6.dropbox.com/t/2/AABxNhaX4P8vmBEikwevApFoj-ZSpgmxEckvQ6Qc41en_A/12/19017295/png/32x32/1/_/1/2/bg_illu.svg/EM3vj5gEGM4BIAIoAg/SlcO9K-7r591bihN5Y2Ynj9wLGY5L6vGLlXrUVWhhC8?size=2048x1536&size_mode=3);
+  background-image: url(welcome/img/bg_illu.svg);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem; 
       height: 200px;
-  background-image: url(https://photos-1.dropbox.com/t/2/AABG7i7BR5Z5qISVnrusC9JwrkinpFs6o1Wil8z_SaSqBw/12/19017295/png/32x32/1/_/1/2/Title.svg/EM3vj5gEGNABIAIoAg/3D72j-GyGhF5uzABU3Q8RJT9QfatV3-E0bdQpD3kOsU?size_mode=5);
+  background-image: url(welcome/img/Title.svg);
   background-size: contain;
 }
 
