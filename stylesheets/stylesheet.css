@@ -80,9 +80,10 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; 
-      height: 200px;
+      height: 50vh;
   background-image: url(/welcome/img/Title.svg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 64em) {
