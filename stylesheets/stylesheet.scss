@@ -129,11 +129,11 @@ a {
 .HolyGrail-body {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  /*color: #fff;
   font-size: 0.8em;
     h4{
     color: #fff;
-  }
+  }*/
 
 }
 
@@ -142,7 +142,7 @@ a {
 .HolyGrail-team, 
 .HolyGrail-approach, 
 .HolyGrail-facility{
-  background:$primary-color; 
+  /*background:$primary-color; */
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
   width: 98%;
