@@ -93,6 +93,9 @@ a:hover {
   padding: 1em;
   width: 98%; }
 
+HolyGrail-body img {
+  width: 50%; }
+
 @media (min-width: 64em) {
   .HolyGrail-body {
     flex-direction: row;
