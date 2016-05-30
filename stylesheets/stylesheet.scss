@@ -73,13 +73,14 @@ a {
     line-height: 200px;
     text-align: center;
     list-style-type:none;
-   -webkit-transition: border .7s;
-    transition: border .7s;
+   -webkit-transition: border .5s, color .5s;
+    transition: border .5s, color .5s;
     }
 
 .corevalues li:hover{
   border-width: 5px;
   border-color: $highlight-color;
+  color: $highlight-color;
 }
 
 
