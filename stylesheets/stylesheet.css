@@ -115,8 +115,8 @@ a:hover {
   padding: 1em;
   width: 98%; }
 
-HolyGrail-body img {
-  width: 50%; }
+.HolyGrail-img img {
+  width: 10vw; }
 
 @media (min-width: 64em) {
   .HolyGrail-body {
