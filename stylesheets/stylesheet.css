@@ -25,6 +25,9 @@ a:hover {
   font-size: 1em;
   text-align: center; }
 
+.rotate {
+  color: #481475; }
+
 .halfLeft {
   display: inline-block;
   width: 50%;
