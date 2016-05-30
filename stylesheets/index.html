@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pop Up Incubate by PopUpIncubate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+    <!--fading txt -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/simpletextrotator.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+  
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/welcome/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/welcome/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/welcome/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/welcome/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/welcome/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/welcome/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/welcome/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/welcome/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/welcome/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/welcome/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/welcome/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/welcome/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/welcome/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/welcome/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/welcome/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> 
+    <meta property="og:image" content="/welcome/img/preview.png">
+
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name chic" title="Pop Up Incubate"></h1>
+    </section>
+
+    <section class="main-content">
+      <h2 class="awesome">Pop Up Incubate startet seinen 6-weeks ltd. Inkubator im Zentrum der Elbmetropole</h2>
+      <h2 class="project-tagline chic">Magdeburg pivots.</h2>
+      <div class="halfRight">
+      <img src="/welcome/img/open.svg" class="centerPic" id="openingTimes">
+      </div>
+      <div class="halfLeft">
+      <img src="/welcome/img/Grundriss.svg" class="centerPic">
+      </div>
+
+    </section>
+
+    <section class="main-content"> 
+      <div class="centered">
+      <div class="project-name chic" style="
+          height: 1em;
+          background-size: 10em;
+          background-position: top right;
+      "></div>
+        <h2>Pop Up Incubate ist <span class="rotate">ein 6-week ltd. human-centered, prototype-driven accelerator Programm.; design thinking angewendet auf early-stage entrepreneurship.; Expertise in Design, Tech und Media.; Kernkompetenzen fördern um proaktiv das Momentum zu nutzen.; Success Storys mit design driven Quickwins schreiben.</span> 
+        </h2>
+      </div>  
+    </section>
+
+    <section class="main-content" style="margin-bottom: 0;">
+      <h3>Core Values</h3>
+      <div class="centered corevalues">
+          <div id="approach">Approach</div>
+          <div id="team">Team</div>
+          <div id="facility">Facility</div>
+        <img src="/welcome/img/Components.svg" class="intersect">
+      </div>
+      <div class="HolyGrail-body">
+          <main id="HolyGrail-approach">
+            <img src="/welcome/img/EGG1.svg">
+            <h4>Approach:</h4>
+            <p>
+            Gutes Design ist lean, ist disruptive.   
+            Mit unserem 6-week ltd. human-centered, prototype-driven accelerator Programm helfen wir early-stage Entrepenuers echte Game Changer zu entwickeln.
+            </p>
+          </main>
+          <nav id="HolyGrail-team">
+            <img src="/welcome/img/EGG2.svg">
+            <h4>Team:</h4>
+            <p>
+            Dank unserer Expertise in Design, Tech und Media wissen wir wie man Erfolg buchstabiert. So verhelfen wir early-stagern zum take  explosiven take off.
+            </p>          
+          </nav>
+          <aside id="HolyGrail-facility">
+            <img src="/welcome/img/EGG3.svg">
+            <h4>Facility:</h4>
+            <p>
+            Auf über 36qm Raum im Herzen der Elbmetropole bekommen Ideen traction. WiFi-Enabled. Post-It approved. Free Yogurts.    
+            </p>            
+          </aside>
+      </div>
+    </section>
+    
+  
+      
+    </div>
+    <div id="btn_info" onclick="talkus('open');">
+      MORE INFO
+    </div>
+    <footer class="yogurt">
+        <img src="/welcome/img/Joghurt.svg">
+        <h2 class="awesome" style="white-space: nowrap;">Free YOgurt everyday</h2>    
+    </footer>    
+
+    <!-- fading text-->
+    <script>
+    document.addEventListener("touchstart", function(){}, true);
+    $(document).ready(function(){
+      $(".rotate").textrotator({
+        animation: "fade",
+        separator: ";",
+        speed: 5000
+      });
+    });
+    $('#HolyGrail-team').mouseover(function(){$('#team').addClass('purple')});
+    $('#HolyGrail-team').mouseout(function(){$('#team').removeClass('purple')});
+    $('#HolyGrail-approach').mouseover(function(){$('#approach').addClass('purple')});
+    $('#HolyGrail-approach').mouseout(function(){$('#approach').removeClass('purple')});
+    $('#HolyGrail-facility').mouseover(function(){$('#facility').addClass('purple')});
+    $('#HolyGrail-facility').mouseout(function(){$('#facility').removeClass('purple')});
+
+    $('#team').mouseover(function(){$('#HolyGrail-team').addClass('purple')});
+    $('#team').mouseout(function(){$('#HolyGrail-team').removeClass('purple')});
+    $('#approach').mouseover(function(){$('#HolyGrail-approach').addClass('purple')});
+    $('#approach').mouseout(function(){$('#HolyGrail-approach').removeClass('purple')});
+    $('#facility').mouseover(function(){$('#HolyGrail-facility').addClass('purple')});
+    $('#facility').mouseout(function(){$('#HolyGrail-facility').removeClass('purple')});
+
+    var dt = new Date();
+    var time = dt.getHours();
+
+    if (time < 11 || time > 19) {
+      //$('#openingTimes').src = '/welcome/img/closed.svg';
+      $('#openingTimes').attr("src", "/welcome/img/closed.svg");
+    }
+    else{
+      //$('#openingTimes').src = '/welcome/img/open.svg';
+      $('#openingTimes').attr("src", "/welcome/img/open.svg");
+    }
+
+
+  </script>  
+
+  <!-- apply chat -->
+  <script>
+    (function(t,a,l,k,u,s,_){if(!t[u]){t[u]=function(){(t[u].q=t[u].q||[]).push(arguments)},t[u].l=1*new Date();s=a.createElement(l),_=a.getElementsByTagName(l)[0];s.async=1;s.src=k;_.parentNode.insertBefore(s,_)}})(window,document,'script','//www.talkus.io/plugin.js','talkus');
+    talkus('primaryColor', '#481475', '#320e52');
+    talkus('loadingImage', 'https://raw.githubusercontent.com/PopUpIncubate/welcome/gh-pages/img/LOGO_Loader.png');
+    talkus('bubble', { userName: 'PoUp Incubate', userPicture: 'https://raw.githubusercontent.com/PopUpIncubate/welcome/gh-pages/img/LOGO_Chat.png', delay: 2, message: 'Interessiert? Connecte mit uns!',});
+    talkus('create', '7F2uKDQF5zSgmS9nF');
+
+     </script>
+  
+  </body>
+</html>
