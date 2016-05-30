@@ -115,18 +115,19 @@ a:hover {
   padding: 1em;
   width: 98%; }
 
-.HolyGrail-body img {
-  display: block;
-  margin: auto;
-  width: 10vw;
-  height: 10vw;
-  min-width: 32px;
-  min-height: 32px;
-  border-radius: 50%;
-  background: #B8E986; }
-.HolyGrail-body h4 {
-  text-align: center;
-  display: none; }
+.HolyGrail-body {
+  text-align: center; }
+  .HolyGrail-body img {
+    display: block;
+    margin: auto;
+    width: 10vw;
+    height: 10vw;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    background: #B8E986; }
+  .HolyGrail-body h4 {
+    display: none; }
 
 @media (min-width: 64em) {
   .HolyGrail-body {
