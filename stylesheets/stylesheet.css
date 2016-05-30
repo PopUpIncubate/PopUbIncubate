@@ -154,8 +154,8 @@ HolyGrail-facility:hover .intersect {
     border-radius: 50%;
     background: #B8E986;
     border: 10px solid #B8E986;
-    -webkit-transition: background-color .25s;
-    transition: background-color .25s; }
+    -webkit-transition: background-color .25s, border-color .25s;
+    transition: background-color .25s, border-color .25s; }
   .HolyGrail-body h4 {
     display: none; }
 
