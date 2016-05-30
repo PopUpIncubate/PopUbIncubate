@@ -50,6 +50,10 @@ a {
   width: 50%;
 }
 
+.centered{
+  clear:both;
+}
+
 .centerPic{
   margin: auto;
 }
@@ -62,6 +66,10 @@ a {
 .yogurt{
   background:$primary-color; 
   padding: 10%;
+  line-height: 0;
+  img{
+      max-height: 50vh;
+  }
 }
 
 .HolyGrail,
