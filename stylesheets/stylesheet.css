@@ -73,12 +73,14 @@ a:hover {
   color: #481475; }
 
 .intersect {
+  pointer-events: none;
+  width: 50vw;
   z-index: -1;
   opacity: 0;
   -webkit-transition: opacity .25s;
   transition: opacity .25s; }
 
-.intersect:hover,
+.corevalues:hover,
 #approach:hover .intersect,
 #team:hover .intersect,
 #facility:hover .intersect,
@@ -88,16 +90,16 @@ HolyGrail-facility:hover .intersect {
   opacity: 1; }
 
 #approach {
-  left: 0vw;
-  top: 18.2vw; }
+  left: 2vw;
+  top: 20vw; }
 
 #team {
-  left: 9.5vw;
-  top: .2vw; }
+  left: 11vw;
+  top: 2.2vw; }
 
 #facility {
-  left: 19.5vw;
-  top: 18.2vw; }
+  left: 21vw;
+  top: 20vw; }
 
 .yogurt {
   background: #B8E986;
