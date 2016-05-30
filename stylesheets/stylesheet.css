@@ -8,7 +8,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #84D446;
-  border: 10px solid #B8E986; }
+  border: 10px solid #B8E986;
+  -webkit-tap-highlight-color: transparent; }
 
 a {
   color: #1e6bb8;
