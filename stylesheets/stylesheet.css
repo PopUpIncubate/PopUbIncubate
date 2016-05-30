@@ -64,6 +64,7 @@ a:hover {
   line-height: 27vw; }
 
 .corevalues li:hover {
+  z-index: 2;
   border-width: 5px;
   border-color: #481475;
   color: #481475; }

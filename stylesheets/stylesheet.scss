@@ -83,6 +83,7 @@ a {
     }
 
 .corevalues li:hover{
+  z-index:2;
   border-width: 5px;
   border-color: $highlight-color;
   color: $highlight-color;
