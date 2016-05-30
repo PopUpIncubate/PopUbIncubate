@@ -72,8 +72,16 @@ a:hover {
   z-index: -1; }
 
 .approach {
+  left: 1.8vw;
+  top: 19.8vw; }
+
+.team {
   left: 11.1vw;
   top: 1.8vw; }
+
+.facility {
+  left: 11.1vw;
+  top: 19.8vw; }
 
 .yogurt {
   background: #B8E986;
