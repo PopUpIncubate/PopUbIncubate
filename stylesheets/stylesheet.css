@@ -133,8 +133,8 @@ HolyGrail-facility:hover .intersect {
 #HolyGrail-facility:active,
 .purple {
   color: #481475;
-  border-width: 5px;
-  border-color: #481475; }
+  border-width: 5px !important;
+  border-color: #481475 !important; }
   #HolyGrail-team:hover img,
   #HolyGrail-approach:hover img,
   #HolyGrail-facility:hover img,
@@ -142,7 +142,7 @@ HolyGrail-facility:hover .intersect {
   #HolyGrail-approach:active img,
   #HolyGrail-facility:active img,
   .purple img {
-    background-color: #481475; }
+    background-color: #481475 !important; }
 
 .HolyGrail-body {
   text-align: center; }
