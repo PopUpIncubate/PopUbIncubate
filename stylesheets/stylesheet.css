@@ -132,7 +132,9 @@ HolyGrail-facility:hover .intersect {
 #HolyGrail-approach:active,
 #HolyGrail-facility:active,
 .highlight {
-  color: #481475; }
+  color: #481475;
+  border-width: 5px;
+  border-color: #481475; }
   #HolyGrail-team:hover img,
   #HolyGrail-approach:hover img,
   #HolyGrail-facility:hover img,

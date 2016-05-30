@@ -162,6 +162,8 @@ HolyGrail-facility:hover .intersect{
 #HolyGrail-facility:active,
 .highlight{
   color:$highlight-color;
+  border-width: 5px;
+  border-color: $highlight-color;
   img{
   background-color:$highlight-color;;
   }
