@@ -37,7 +37,10 @@ a:hover {
   width: 50%; }
 
 .centered {
-  clear: both; }
+  position: relative;
+  clear: both;
+  width: 50vw;
+  margin: auto; }
 
 .centerPic {
   margin: auto;

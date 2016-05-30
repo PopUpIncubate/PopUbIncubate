@@ -51,7 +51,10 @@ a {
 }
 
 .centered{
+  position:relative;
   clear:both;
+  width: 50vw;
+  margin: auto;
 }
 
 .centerPic{
