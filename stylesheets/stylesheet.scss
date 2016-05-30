@@ -151,8 +151,8 @@ HolyGrail-facility:hover .intersect{
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
   width: 98%;
-  -webkit-transition: color .25s;
-  transition: color .25s;
+  -webkit-transition: color .25s, background-color .25s;
+  transition: color .25s, background-color .25s;
 }
 #HolyGrail-team:hover, 
 #HolyGrail-approach:hover, 
@@ -162,6 +162,9 @@ HolyGrail-facility:hover .intersect{
 #HolyGrail-facility:active,
 .highlight{
   color:$highlight-color;
+  img{
+  background-color:$highlight-color;;
+  }
 }
 
 .HolyGrail-body{
