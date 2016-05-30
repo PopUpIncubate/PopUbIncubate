@@ -73,8 +73,8 @@ a {
     line-height: 200px;
     text-align: center;
     list-style-type:none;
-   -webkit-transition: border .5s, color .5s;
-    transition: border .5s, color .5s;
+   -webkit-transition: border .25s, color .25s;
+    transition: border .25s, color .25s;
     }
 
 .corevalues li:hover{
@@ -83,6 +83,9 @@ a {
   color: $highlight-color;
 }
 
+.corevalues + img{
+  z-index: -1;
+}
 
 .yogurt{
   background:$primary-color; 
