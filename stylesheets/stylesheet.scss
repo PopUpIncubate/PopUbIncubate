@@ -82,11 +82,13 @@ a {
     line-height: 27vw;
     }
 
-.corevalues li:hover{
-  z-index:2;
-  border-width: 5px;
-  border-color: $highlight-color;
-  color: $highlight-color;
+.corevalues{
+   li:hover{
+    z-index:2;
+    border-width: 5px;
+    border-color: $highlight-color;
+    color: $highlight-color;
+    }
 }
 
 .intersect{
@@ -145,8 +147,10 @@ a {
 
 }
 
-HolyGrail-body img{
-  width: 50%;
+HolyGrail-body{
+  img{
+    width: 50%;
+    }
 }
 
 @media (min-width: 64em) {
