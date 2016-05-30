@@ -65,11 +65,11 @@ a {
   padding: 10%;
 }
 
-.corevalues{
+/*.corevalues{
   position:absolute;
-}
+}*/
 
-.corevalues li{
+.corevalues div{
     display: block;
     border: 2px solid $primary-color;
     border-radius: 50%;
@@ -85,7 +85,7 @@ a {
     }
 
 .corevalues{
-   li:hover{
+   div:hover{
     z-index:2;
     border-width: 5px;
     border-color: $highlight-color;

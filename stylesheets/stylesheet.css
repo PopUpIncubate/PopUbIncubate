@@ -50,10 +50,10 @@ a:hover {
   margin: auto;
   padding: 10%; }
 
-.corevalues {
-  position: absolute; }
-
-.corevalues li {
+/*.corevalues{
+  position:absolute;
+}*/
+.corevalues div {
   display: block;
   border: 2px solid #B8E986;
   border-radius: 50%;
@@ -66,7 +66,7 @@ a:hover {
   height: 27vw;
   line-height: 27vw; }
 
-.corevalues li:hover {
+.corevalues div:hover {
   z-index: 2;
   border-width: 5px;
   border-color: #481475;
