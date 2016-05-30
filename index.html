@@ -139,11 +139,11 @@
 
     if (time < 11 || time > 19) {
       //$('#openingTimes').src = '/welcome/img/closed.svg';
-      $('#openingTimes').attr("src").replace("closed", "open");
+      $('#openingTimes').attr("src").replace("/welcome/img/closed.svg", "/welcome/img/open.svg");
     }
     else{
       //$('#openingTimes').src = '/welcome/img/open.svg';
-      $('#openingTimes').attr("src").replace("open", "closed");
+      $('#openingTimes').attr("src").replace("/welcome/img/open.svg", "/welcome/img/closed.svg");
     }
 
 
