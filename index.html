@@ -43,7 +43,7 @@
       <h2 class="awesome">Pop Up Incubate startet seinen 6-weeks ltd. Inkubator im Zentrum der Elbmetropole</h2>
       <h2 class="project-tagline chic">Magdeburg pivots.</h2>
       <div class="halfRight">
-      <img src="/welcome/img/open.svg" class="centerPic">
+      <img src="/welcome/img/open.svg" class="centerPic" id="openingTimes">
       </div>
       <div class="halfLeft">
       <img src="/welcome/img/Grundriss.svg" class="centerPic">
@@ -96,7 +96,11 @@
           </aside>
       </div>
     </section>
+    
   
+      
+    </div>
+
     <footer class="yogurt">
         <img src="/welcome/img/Joghurt.svg">
         <h2 class="awesome">Free YOgurt everyday</h2>    
@@ -125,6 +129,18 @@
     $('#approach').mouseout(function(){$('#HolyGrail-approach').removeClass('purple')});
     $('#facility').mouseover(function(){$('#HolyGrail-facility').addClass('purple')});
     $('#facility').mouseout(function(){$('#HolyGrail-facility').removeClass('purple')});
+
+    var dt = new Date();
+    var time = dt.getHours();
+
+    if (time < 10 || time > 20) {
+      $('#openingTimes').src = '/welcome/img/closed.svg';
+    }
+    else{
+      $('#openingTimes').src = '/welcome/img/open.svg';
+    }
+
+
   </script>  
 
   <!-- apply chat -->
