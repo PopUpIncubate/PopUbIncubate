@@ -17,6 +17,41 @@ a {
   a:hover {
     text-decoration: underline; }
 
+
+.awesome{
+  font-size:2em; 
+  text-align:center;
+}
+
+.chic{
+  font-size:1em; 
+  text-align:center;
+}
+
+.halfLeft{
+  display:inline-block; 
+  width: 50%; 
+  white-space: nowrap; 
+  float:left; 
+  position:relative;
+}
+
+.halfRight{
+  display:inline-block; 
+  width: 50%;
+}
+
+.pic{
+  top: 0; 
+  position: absolute; 
+  padding: 1em;
+}
+
+.yogurt{
+  background:#B8E986; 
+  padding: 10%;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -36,6 +71,12 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+
+
+
+
+
+// mediaq
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
@@ -258,3 +299,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+
+
+
