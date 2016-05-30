@@ -64,6 +64,25 @@ a {
   padding: 1em;
 }
 
+.corevalues li{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    list-style-type:none;
+   -webkit-transition: border .7s;
+    transition: border .7s;
+    }
+
+.corevalues li:hover{
+  border-width: 5px;
+  border-color: $highlight-color;
+}
+
+
 .yogurt{
   background:$primary-color; 
   padding: 10%;
