@@ -179,6 +179,10 @@ HolyGrail-facility:hover .intersect {
   text-align: center;
   margin: 0 auto 4em auto; }
 
+#btn_info,
+#btn_info p {
+  cursor: pointer; }
+
 #btn_info:active {
   background: #B8E986; }
 
