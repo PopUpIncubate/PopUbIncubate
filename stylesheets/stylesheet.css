@@ -114,8 +114,12 @@ a:hover {
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
   width: 98%; }
+  .HolyGrail-team img,
+  .HolyGrail-approach img,
+  .HolyGrail-facility img {
+    width: 10vw; }
 
-.HolyGrail-img img {
+.HolyGrail-body img {
   width: 10vw; }
 
 @media (min-width: 64em) {
