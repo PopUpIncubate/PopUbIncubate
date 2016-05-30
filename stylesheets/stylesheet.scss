@@ -162,7 +162,8 @@ HolyGrail-facility:hover .intersect{
   border-width: 5px !important;
   border-color: $highlight-color !important;
   img{
-  background-color:$highlight-color !important;
+    border-color: $highlight-color !important;
+    background-color:$highlight-color !important;
   }
 }
 
@@ -177,6 +178,7 @@ HolyGrail-facility:hover .intersect{
     min-height:32px;
     border-radius: 50%;
     background: #B8E986;
+    border: 10px solid #B8E986;
     -webkit-transition: background-color .25s;
     transition: background-color .25s;
 

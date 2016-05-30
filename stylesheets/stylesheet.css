@@ -139,6 +139,7 @@ HolyGrail-facility:hover .intersect {
   #HolyGrail-approach:active img,
   #HolyGrail-facility:active img,
   .purple img {
+    border-color: #481475 !important;
     background-color: #481475 !important; }
 
 .HolyGrail-body {
@@ -152,6 +153,7 @@ HolyGrail-facility:hover .intersect {
     min-height: 32px;
     border-radius: 50%;
     background: #B8E986;
+    border: 10px solid #B8E986;
     -webkit-transition: background-color .25s;
     transition: background-color .25s; }
   .HolyGrail-body h4 {
