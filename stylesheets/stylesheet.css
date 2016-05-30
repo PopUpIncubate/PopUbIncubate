@@ -166,7 +166,7 @@ HolyGrail-facility:hover .intersect {
   #HolyGrail-approach,
   #HolyGrail-facility {
     width: 33vw; } }
-btn_info {
+#btn_info {
   display: block;
   position: relative;
   height: 4em;
@@ -179,7 +179,7 @@ btn_info {
   text-align: center;
   margin: 1em auto; }
 
-btn_info:active {
+#btn_info:active {
   background: #B8E986; }
 
 .btn {
