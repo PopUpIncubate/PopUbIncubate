@@ -75,7 +75,8 @@ a:hover {
 .intersect {
   pointer-events: none;
   width: 50vw;
-  z-index: -1;
+  height: 45.6vw;
+  z-index: 5;
   opacity: 0;
   -webkit-transition: opacity .25s;
   transition: opacity .25s; }
@@ -118,7 +119,12 @@ HolyGrail-facility:hover .intersect {
   /*background:$primary-color; */
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
-  width: 98%; }
+  width: 98%;
+  -webkit-transition: color .25s;
+  transition: color .25s; }
+
+.highlight {
+  color: #481475; }
 
 .HolyGrail-body {
   text-align: center; }
