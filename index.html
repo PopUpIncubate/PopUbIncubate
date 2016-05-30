@@ -138,10 +138,12 @@
     var time = dt.getHours();
 
     if (time < 11 || time > 19) {
-      $('#openingTimes').src = '/welcome/img/closed.svg';
+      //$('#openingTimes').src = '/welcome/img/closed.svg';
+      $('#openingTimes').attr("src").replace("closed", "open");
     }
     else{
-      $('#openingTimes').src = '/welcome/img/open.svg';
+      //$('#openingTimes').src = '/welcome/img/open.svg';
+      $('#openingTimes').attr("src").replace("open", "closed");
     }
 
 
