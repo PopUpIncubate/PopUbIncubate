@@ -81,15 +81,15 @@ a:hover {
 .corevalues:hover .intersect {
   opacity: 1; }
 
-.approach {
+#approach {
   left: 0vw;
   top: 18.2vw; }
 
-.team {
+#team {
   left: 9.5vw;
   top: .2vw; }
 
-.facility {
+#facility {
   left: 19.5vw;
   top: 18.2vw; }
 
@@ -107,9 +107,9 @@ a:hover {
   /*color: #fff;
   font-size: 0.8em;*/ }
 
-.HolyGrail-team,
-.HolyGrail-approach,
-.HolyGrail-facility {
+#HolyGrail-team,
+#HolyGrail-approach,
+#HolyGrail-facility {
   /*background:$primary-color; */
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
@@ -131,9 +131,9 @@ a:hover {
     flex-direction: row;
     flex: 1; }
 
-  .HolyGrail-team,
-  .HolyGrail-approach,
-  .HolyGrail-facility {
+  #HolyGrail-team,
+  #HolyGrail-approach,
+  #HolyGrail-facility {
     width: 33vw; } }
 .btn {
   display: inline-block;
