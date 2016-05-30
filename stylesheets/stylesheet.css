@@ -78,7 +78,13 @@ a:hover {
   -webkit-transition: opacity .25s;
   transition: opacity .25s; }
 
-.intersect:hover {
+.intersect:hover,
+#approach:hover .intersect,
+#team:hover .intersect,
+#facility:hover .intersect,
+HolyGrail-approach:hover .intersect,
+HolyGrail-team:hover .intersect,
+HolyGrail-facility:hover .intersect {
   opacity: 1; }
 
 #approach {

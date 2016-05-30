@@ -99,7 +99,13 @@ a {
   -webkit-transition: opacity .25s;
     transition: opacity .25s;
 }
-.intersect:hover{
+.intersect:hover,
+#approach:hover .intersect,
+#team:hover .intersect,
+#facility:hover .intersect,
+HolyGrail-approach:hover .intersect,
+HolyGrail-team:hover .intersect,
+HolyGrail-facility:hover .intersect{
     opacity:1;
 }
 
@@ -116,6 +122,7 @@ a {
     left: 19.5vw;
     top: 18.2vw;
 }
+
 .yogurt{
   background:$primary-color; 
   padding: 10%;
