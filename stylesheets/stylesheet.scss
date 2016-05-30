@@ -88,9 +88,16 @@ a {
   color: $highlight-color;
 }
 
-.corevalues + img{
-  z-index: -1;
+.intersect{
+    z-index: -1;
+    opacity:0;
+  -webkit-transition: opacity .25s;
+    transition: opacity .25s;
 }
+.corevalues:hover .intersect{
+    opacity:1;
+}
+
 
 .approach{
     left: 0vw;
@@ -98,7 +105,7 @@ a {
 }
 .team{
     left: 9.5vw;
-    top: 0vw;  
+    top: .2vw;  
 }
 .facility{
     left: 19.5vw;
