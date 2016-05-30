@@ -50,8 +50,13 @@ a {
   width: 50%;
 }
 
+.centered{
+  clear:both;
+}
+
 .centerPic{
   margin: auto;
+  padding: 10%;
 }
 .components{
   top: 0; 
@@ -59,9 +64,32 @@ a {
   padding: 1em;
 }
 
+.corevalues li{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    list-style-type:none;
+   -webkit-transition: border .7s;
+    transition: border .7s;
+    }
+
+.corevalues li:hover{
+  border-width: 5px;
+  border-color: $highlight-color;
+}
+
+
 .yogurt{
   background:$primary-color; 
   padding: 10%;
+  line-height: 0;
+  img{
+      max-height: 50vh;
+  }
 }
 
 .HolyGrail,
@@ -83,7 +111,7 @@ a {
 .HolyGrail-facility{
   background:$primary-color; 
   margin: 0 0.5em 1em 0.5em;
-  padding: 20em 1em 0 1em;
+  padding: 1em;
   width: 98%;
 
 }

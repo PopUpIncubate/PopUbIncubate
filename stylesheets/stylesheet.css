@@ -36,17 +36,40 @@ a:hover {
   display: inline-block;
   width: 50%; }
 
+.centered {
+  clear: both; }
+
 .centerPic {
-  margin: auto; }
+  margin: auto;
+  padding: 10%; }
 
 .components {
   top: 0;
   position: absolute;
   padding: 1em; }
 
+.corevalues li {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #B8E986;
+  border-radius: 50%;
+  line-height: 200px;
+  text-align: center;
+  list-style-type: none;
+  -webkit-transition: border .7s;
+  transition: border .7s; }
+
+.corevalues li:hover {
+  border-width: 5px;
+  border-color: #481475; }
+
 .yogurt {
   background: #B8E986;
-  padding: 10%; }
+  padding: 10%;
+  line-height: 0; }
+  .yogurt img {
+    max-height: 50vh; }
 
 .HolyGrail,
 .HolyGrail-body {
@@ -63,7 +86,7 @@ a:hover {
 .HolyGrail-facility {
   background: #B8E986;
   margin: 0 0.5em 1em 0.5em;
-  padding: 20em 1em 0 1em;
+  padding: 1em;
   width: 98%; }
 
 @media (min-width: 64em) {
