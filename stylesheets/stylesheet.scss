@@ -41,7 +41,7 @@ a {
 }
 .rotate{
   color:$highlight-color;
-  min-height: 3em;
+  min-height: 10em;
 }
 .halfLeft{
   display:inline-block; 
@@ -97,10 +97,7 @@ a {
 }
 
 .intersect{
-    pointer-events: none;
-    z-index: 5;
-  -webkit-transition: opacity .25s;
-    transition: opacity .25s;
+    pointer-events: none !important;
 }
 .corevalues:hover .intersect,
 HolyGrail-approach:hover .intersect,
