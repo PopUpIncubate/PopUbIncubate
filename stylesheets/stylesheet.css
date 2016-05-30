@@ -51,18 +51,21 @@ a:hover {
   position: absolute;
   padding: 1em; }
 
+.corevalues {
+  position: absolute; }
+
 .corevalues li {
   display: block;
-  width: 200px;
-  height: 200px;
   border: 2px solid #B8E986;
   border-radius: 50%;
-  line-height: 200px;
   text-align: center;
   list-style-type: none;
   -webkit-transition: border .25s, color .25s;
   transition: border .25s, color .25s;
-  position: absolute; }
+  position: absolute;
+  width: 27vw;
+  height: 27vw;
+  line-height: 27vw; }
 
 .corevalues li:hover {
   border-width: 5px;
@@ -71,6 +74,10 @@ a:hover {
 
 .corevalues + img {
   z-index: -1; }
+
+.approach {
+  left: 11.1vw;
+  top: 1.8vw; }
 
 .yogurt {
   background: #B8E986;

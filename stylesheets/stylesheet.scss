@@ -67,18 +67,23 @@ a {
   padding: 1em;
 }
 
+.corevalues{
+  position:absolute;
+}
+
 .corevalues li{
     display: block;
-    width: 200px;
-    height: 200px;
     border: 2px solid $primary-color;
     border-radius: 50%;
-    line-height: 200px;
     text-align: center;
     list-style-type:none;
    -webkit-transition: border .25s, color .25s;
     transition: border .25s, color .25s;
     position:absolute;
+
+    width: 27vw;
+    height: 27vw;
+    line-height: 27vw;
     }
 
 .corevalues li:hover{
@@ -91,6 +96,16 @@ a {
   z-index: -1;
 }
 
+.approach{
+    left: 11.1vw;
+    top: 1.8vw;
+}
+.team{
+  
+}
+.facility{
+  
+}
 .yogurt{
   background:$primary-color; 
   padding: 10%;
