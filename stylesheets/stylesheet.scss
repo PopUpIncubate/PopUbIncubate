@@ -70,21 +70,37 @@ a {
   flex-direction: column;
   color: #fff;
   font-size: 0.8em;
+    h4{
+    color: #fff;
+  }
+
 }
 
 
 
-.HolyGrail-team, .HolyGrail-approach, .HolyGrail-facility{
+.HolyGrail-team, 
+.HolyGrail-approach, 
+.HolyGrail-facility{
   background:$primary-color; 
+  margin: 0 0.5em 1em 0.5em;
   padding: 20em 1em 0 1em;
+  width: 98%;
+
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 64em) {
   .HolyGrail-body {
     flex-direction: row;
     flex: 1;
   }
+  
+  .HolyGrail-team, 
+  .HolyGrail-approach, 
+  .HolyGrail-facility{
+    width: 33vw;
+  }  
+
 }
 
 
@@ -193,6 +209,7 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
@@ -298,7 +315,7 @@ a {
   .main-content {
     max-width: 64rem;
     padding: 2rem 6rem;
-    margin: 0 auto;
+    margin: 10em auto;
     font-size: 1.1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
