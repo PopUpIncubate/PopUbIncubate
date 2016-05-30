@@ -75,6 +75,9 @@ a:hover {
   .HolyGrail-approach,
   .HolyGrail-facility {
     width: 33vw; } }
+#talksu-button {
+  background-image: url("/welcome/img/allpaNow.svg") !important; }
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
