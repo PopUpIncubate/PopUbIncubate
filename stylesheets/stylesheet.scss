@@ -172,8 +172,8 @@ HolyGrail-facility:hover .intersect{
     margin: auto;
     width: 10vw;
     height: 10vw;
-    min-width:32px;
-    min-height:32px;
+    min-width:64px;
+    min-height:64px;
     border-radius: 50%;
     background: #B8E986;
     border: 10px solid #B8E986;
@@ -211,7 +211,11 @@ HolyGrail-facility:hover .intersect{
     color: white;
     line-height: 4em;
     text-align: center;
-    margin: 1em auto;
+    margin: 0 auto 4em auto;
+}
+#btn_info,
+#btn_info p{
+    cursor: pointer;  
 }
 #btn_info:active{
     background: $primary-color;
