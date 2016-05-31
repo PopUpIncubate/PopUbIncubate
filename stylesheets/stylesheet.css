@@ -53,29 +53,28 @@ a:hover {
   margin: auto;
   padding: 10%; }
 
-/*.corevalues{
-  position:absolute;
-}*/
-.corevalues div {
-  display: block;
-  border: 2px solid #B8E986;
-  border-radius: 50%;
-  text-align: center;
-  list-style-type: none;
-  -moz-transition: border 0.25s, color 0.25s;
-  -o-transition: border 0.25s, color 0.25s;
-  -webkit-transition: border 0.25s, color 0.25s;
-  transition: border 0.25s, color 0.25s;
-  position: absolute;
-  width: 27vw;
-  height: 27vw;
-  line-height: 27vw; }
-
-.corevalues div:hover {
-  z-index: 2;
-  border-width: 5px;
-  border-color: #481475;
-  color: #481475; }
+.corevalues {
+  z-index: 1; }
+  .corevalues div {
+    display: block;
+    border: 2px solid #B8E986;
+    border-radius: 50%;
+    text-align: center;
+    list-style-type: none;
+    -moz-transition: border 0.25s, color 0.25s;
+    -o-transition: border 0.25s, color 0.25s;
+    -webkit-transition: border 0.25s, color 0.25s;
+    transition: border 0.25s, color 0.25s;
+    position: absolute;
+    z-index: -1;
+    width: 27vw;
+    height: 27vw;
+    line-height: 27vw; }
+  .corevalues div:hover {
+    z-index: 2;
+    border-width: 5px;
+    border-color: #481475;
+    color: #481475; }
 
 .intersect {
   pointer-events: none !important; }
