@@ -62,10 +62,10 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   list-style-type: none;
-  -moz-transition: background-color 0.25s, color 0.25s;
-  -o-transition: background-color 0.25s, color 0.25s;
-  -webkit-transition: background-color 0.25s, color 0.25s;
-  transition: background-color 0.25s, color 0.25s;
+  -moz-transition: border 0.25s, color 0.25s;
+  -o-transition: border 0.25s, color 0.25s;
+  -webkit-transition: border 0.25s, color 0.25s;
+  transition: border 0.25s, color 0.25s;
   position: absolute;
   width: 27vw;
   height: 27vw;

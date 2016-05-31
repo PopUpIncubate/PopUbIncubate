@@ -82,7 +82,7 @@ a {
     border-radius: 50%;
     text-align: center;
     list-style-type:none;
-    @include transition(background-color 0.25s, color 0.25s);
+   @include transition(border 0.25s, color 0.25s);
     position:absolute;
 
     width: 27vw;
