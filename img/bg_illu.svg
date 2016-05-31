@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1120px" height="1354px" viewBox="0 0 1120 1354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1120px" height="1351px" viewBox="0 0 1120 1351" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
     <title>Group 4</title>
     <desc>Created with Sketch.</desc>
@@ -111,27 +111,14 @@
                 <path d="M721,1184.5 C721,1184.5 734,1202.5 764,1200.5 C794,1198.5 805,1186.5 805,1186.5 L793,1259.5 L734.5,1258 L721,1184.5 Z" id="Path-84" stroke="#B8E986" stroke-width="3"></path>
                 <path d="M574,887.5 C574,887.5 566,883.5 564.5,872.5 C563,861.5 565,847 565,847 L574,887.5 Z" id="Path-171" stroke="#B8E986" stroke-width="3"></path>
                 <path d="M578.5,888.5 C578.5,888.5 599,883.5 601.5,889.5 C604,895.5 616,920 616,920 L605,878 L578.5,888.5 Z" id="Path-172" stroke="#B8E986" stroke-width="3"></path>
-                <g id="Group" transform="translate(503.000000, 506.000000) rotate(-10.000000) translate(-503.000000, -506.000000) translate(37.000000, 253.000000)" fill="#481475">
-                    <text id="POP-UP" font-family="NewCicle-Gordita, New Cicle" font-size="235.923985" font-weight="bold">
-                        <tspan x="3.83693077e-13" y="163">POP UP</tspan>
-                        <tspan x="3.83693077e-13" y="372">INCUB</tspan>
-                        <tspan x="560.319465" y="372" letter-spacing="-10">AT</tspan>
-                        <tspan x="816.586452" y="372">E</tspan>
-                    </text>
-                    <path d="M212.5,110 C221.060414,110 228,103.060414 228,94.5 C228,85.9395864 221.060414,79 212.5,79 C203.939586,79 197,85.9395864 197,94.5 C197,103.060414 203.939586,110 212.5,110 Z" id="Oval-4"></path>
-                    <path d="M240.5,310 C249.060414,310 256,303.060414 256,294.5 C256,285.939586 249.060414,279 240.5,279 C231.939586,279 225,285.939586 225,294.5 C225,303.060414 231.939586,310 240.5,310 Z" id="Oval-4-Copy"></path>
-                </g>
-                <path d="M637.5,177.5 L637.5,127.5" id="Line" stroke="#481475" stroke-width="17" stroke-linecap="square"></path>
-                <path d="M696.923886,187.287893 L718.842443,142.348191" id="Line-Copy-60" stroke="#481475" stroke-width="17" stroke-linecap="square"></path>
-                <path d="M734.476983,222.41 L773.334281,190.943981" id="Line-Copy-61" stroke="#481475" stroke-width="17" stroke-linecap="square"></path>
                 <path d="M3.5,1309 L1101.5,1290.5" id="Path-175" stroke="#B8E986" stroke-width="3"></path>
                 <g id="Group-3" transform="translate(153.000000, 1129.000000)" stroke-linecap="square" stroke-width="2" stroke="#481475">
                     <polygon id="Path-97" points="2.37037037 124.390625 1.77777778 101.53125 4.44444444 100.34375 2.66666667 48.09375 5.92592593 47.5 5.03703704 28.796875 7.7037037 25.53125 18.0740741 0 26.0740741 26.125 29.6296296 31.171875 31.1111111 49.578125 30.8148148 54.921875 39.7037037 53.4375 40 31.765625 49.1851852 10.984375 58.0740741 34.4375 56.8888889 42.15625 61.3333333 53.140625 62.5185185 78.078125 62.5185185 86.6875 91.5555556 85.203125 93.9259259 80.15625 97.4814815 85.5 101.333333 78.671875 111.407407 81.34375 111.703704 71.546875 114.962963 58.484375 117.037037 73.625 117.333333 81.640625 149.037037 81.046875 160.592593 97.375 162.37037 92.921875 162.962963 115.78125 176 119.34375 174.222222 120.828125 174.518519 131.515625 175.111111 148.4375 0 151.703125 0 124.09375"></polygon>
                     <path d="M49.1851852,3.265625 L49.1851852,11.578125" id="Line"></path>
                     <path d="M51.5555556,5.046875 L48,5.046875" id="Line-Copy-62"></path>
                 </g>
-                <text id="DEIN-INKUBATOR-FÜR-D" transform="translate(429.500000, 1337.500000) rotate(-1.000000) translate(-429.500000, -1337.500000) " font-family="NewCicle-Gordita, New Cicle" font-size="38" font-weight="bold" letter-spacing="2.50263429" fill="#B8E986">
-                    <tspan x="29" y="1347">DEIN INKUBATOR FÜR DESIGN &amp; TECH &amp; MEDIA</tspan>
+                <text id="DEIN-INKUBATOR-FÜR-D" transform="translate(463.000000, 1336.000000) rotate(-1.000000) translate(-463.000000, -1336.000000) " font-family="NewCicle-Gordita, New Cicle" font-size="32" font-weight="bold" letter-spacing="2.10748148" fill="#B8E986">
+                    <tspan x="110" y="1344">DEIN INKUBATOR FÜR DESIGN &amp;  TECH  &amp;  MEDIA</tspan>
                 </text>
             </g>
         </g>
