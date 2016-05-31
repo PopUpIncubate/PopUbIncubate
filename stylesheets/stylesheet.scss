@@ -76,7 +76,9 @@ a {
   position:absolute;
 }*/
 
-.corevalues div{
+.corevalues{
+    z-index:1;
+  div{
     display: block;
     border: 2px solid $primary-color;
     border-radius: 50%;
@@ -90,9 +92,6 @@ a {
     height: 27vw;
     line-height: 27vw;
     }
-
-.corevalues{
-    z-index:1;
    div:hover{
     z-index:2;
     border-width: 5px;
