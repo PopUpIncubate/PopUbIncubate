@@ -62,8 +62,10 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   list-style-type: none;
-  -webkit-transition: border .25s, color .25s;
-  transition: border .25s, color .25s;
+  -moz-transition: background-color 0.25s, color 0.25s;
+  -o-transition: background-color 0.25s, color 0.25s;
+  -webkit-transition: background-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s;
   position: absolute;
   width: 27vw;
   height: 27vw;
@@ -117,8 +119,10 @@ HolyGrail-facility:hover .intersect {
   margin: 0 0.5em 1em 0.5em;
   padding: 1em;
   width: 98%;
-  -webkit-transition: color .25s, background-color .25s;
-  transition: color .25s, background-color .25s; }
+  -moz-transition: background-color 0.25s, color 0.25s;
+  -o-transition: background-color 0.25s, color 0.25s;
+  -webkit-transition: background-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s; }
 
 #HolyGrail-team:hover,
 #HolyGrail-approach:hover,
@@ -151,9 +155,12 @@ HolyGrail-facility:hover .intersect {
     min-height: 64px;
     border-radius: 50%;
     background: #B8E986;
-    border: 10px solid #B8E986;
-    -webkit-transition: background-color .25s, border-color .25s;
-    transition: background-color .25s, border-color .25s; }
+    border: 10px solid;
+    border-color: #B8E986;
+    -moz-transition: background-color 0.25s, border-color 0.25s;
+    -o-transition: background-color 0.25s, border-color 0.25s;
+    -webkit-transition: background-color 0.25s, border-color 0.25s;
+    transition: background-color 0.25s, border-color 0.25s; }
   .HolyGrail-body h4 {
     display: none; }
 
@@ -178,10 +185,10 @@ HolyGrail-facility:hover .intersect {
   line-height: 4em;
   text-align: center;
   margin: 0 auto 4em auto;
-  -moz-transition: background-color 0.2s, color 0.2s;
-  -o-transition: background-color 0.2s, color 0.2s;
-  -webkit-transition: background-color 0.2s, color 0.2s;
-  transition: background-color 0.2s, color 0.2s; }
+  -moz-transition: background-color 0.25s, color 0.25s;
+  -o-transition: background-color 0.25s, color 0.25s;
+  -webkit-transition: background-color 0.25s, color 0.25s;
+  transition: background-color 0.25s, color 0.25s; }
 
 #btn_info {
   cursor: pointer;
