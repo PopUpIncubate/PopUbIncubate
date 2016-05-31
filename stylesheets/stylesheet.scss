@@ -84,6 +84,7 @@ a {
     list-style-type:none;
    @include transition(border 0.25s, color 0.25s);
     position:absolute;
+    z-index:-1;
 
     width: 27vw;
     height: 27vw;
@@ -91,6 +92,7 @@ a {
     }
 
 .corevalues{
+    z-index:1;
    div:hover{
     z-index:2;
     border-width: 5px;
