@@ -79,6 +79,7 @@ a {
   div{
     display: block;
     border: 2px solid $primary-color;
+    border-width: .4vw;
     border-radius: 50%;
     text-align: center;
     list-style-type:none;
@@ -93,6 +94,7 @@ a {
    div:hover{
     z-index:2;
     border-width: 5px;
+    border-width: 1vw;
     border-color: $highlight-color;
     color: $highlight-color;
     }

@@ -60,6 +60,7 @@ a:hover {
   .corevalues div {
     display: block;
     border: 2px solid #B8E986;
+    border-width: .4vw;
     border-radius: 50%;
     text-align: center;
     list-style-type: none;
@@ -75,6 +76,7 @@ a:hover {
   .corevalues div:hover {
     z-index: 2;
     border-width: 5px;
+    border-width: 1vw;
     border-color: #481475;
     color: #481475; }
 
